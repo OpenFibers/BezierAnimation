@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42E6ADE71518934C00854C59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E6ADE61518934C00854C59 /* UIKit.framework */; };
+		42E6ADE91518934C00854C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E6ADE81518934C00854C59 /* Foundation.framework */; };
+		42E6ADEB1518934C00854C59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E6ADEA1518934C00854C59 /* CoreGraphics.framework */; };
+		42E6ADF11518934C00854C59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42E6ADEF1518934C00854C59 /* InfoPlist.strings */; };
+		42E6ADF31518934D00854C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6ADF21518934D00854C59 /* main.m */; };
+		42E6ADF71518934D00854C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6ADF61518934D00854C59 /* AppDelegate.m */; };
+		42E6ADFA1518934D00854C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6ADF91518934D00854C59 /* ViewController.m */; };
+		42E6ADFD1518934D00854C59 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E6ADFB1518934D00854C59 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42E6ADE21518934C00854C59 /* BezierAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E6ADE61518934C00854C59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42E6ADE81518934C00854C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42E6ADEA1518934C00854C59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42E6ADEE1518934C00854C59 /* BezierAnimation-Info.plist */ = {isa = PBXFileReference; path = "BezierAnimation-Info.plist"; sourceTree = "<group>"; };
+		42E6ADF01518934C00854C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42E6ADF21518934D00854C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42E6ADF41518934D00854C59 /* BezierAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "BezierAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		42E6ADF51518934D00854C59 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42E6ADF61518934D00854C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42E6ADF81518934D00854C59 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		42E6ADF91518934D00854C59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42E6ADFC1518934D00854C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42E6ADDF1518934C00854C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E6ADE71518934C00854C59 /* UIKit.framework in Frameworks */,
+				42E6ADE91518934C00854C59 /* Foundation.framework in Frameworks */,
+				42E6ADEB1518934C00854C59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42E6ADD71518934C00854C59 = {
+			isa = PBXGroup;
+			children = (
+				42E6ADEC1518934C00854C59 /* BezierAnimation */,
+				42E6ADE51518934C00854C59 /* Frameworks */,
+				42E6ADE31518934C00854C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42E6ADE31518934C00854C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42E6ADE21518934C00854C59 /* BezierAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42E6ADE51518934C00854C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42E6ADE61518934C00854C59 /* UIKit.framework */,
+				42E6ADE81518934C00854C59 /* Foundation.framework */,
+				42E6ADEA1518934C00854C59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42E6ADEC1518934C00854C59 /* BezierAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				42E6ADF51518934D00854C59 /* AppDelegate.h */,
+				42E6ADF61518934D00854C59 /* AppDelegate.m */,
+				42E6ADF81518934D00854C59 /* ViewController.h */,
+				42E6ADF91518934D00854C59 /* ViewController.m */,
+				42E6ADFB1518934D00854C59 /* ViewController.xib */,
+				42E6ADED1518934C00854C59 /* Supporting Files */,
+			);
+			path = BezierAnimation;
+			sourceTree = "<group>";
+		};
+		42E6ADED1518934C00854C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42E6ADEE1518934C00854C59 /* BezierAnimation-Info.plist */,
+				42E6ADEF1518934C00854C59 /* InfoPlist.strings */,
+				42E6ADF21518934D00854C59 /* main.m */,
+				42E6ADF41518934D00854C59 /* BezierAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42E6ADE11518934C00854C59 /* BezierAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E6AE001518934D00854C59 /* Build configuration list for PBXNativeTarget "BezierAnimation" */;
+			buildPhases = (
+				42E6ADDE1518934C00854C59 /* Sources */,
+				42E6ADDF1518934C00854C59 /* Frameworks */,
+				42E6ADE01518934C00854C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierAnimation;
+			productName = BezierAnimation;
+			productReference = 42E6ADE21518934C00854C59 /* BezierAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42E6ADD91518934C00854C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 42E6ADDC1518934C00854C59 /* Build configuration list for PBXProject "BezierAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42E6ADD71518934C00854C59;
+			productRefGroup = 42E6ADE31518934C00854C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42E6ADE11518934C00854C59 /* BezierAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42E6ADE01518934C00854C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E6ADF11518934C00854C59 /* InfoPlist.strings in Resources */,
+				42E6ADFD1518934D00854C59 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42E6ADDE1518934C00854C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E6ADF31518934D00854C59 /* main.m in Sources */,
+				42E6ADF71518934D00854C59 /* AppDelegate.m in Sources */,
+				42E6ADFA1518934D00854C59 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42E6ADEF1518934C00854C59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E6ADF01518934C00854C59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42E6ADFB1518934D00854C59 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E6ADFC1518934D00854C59 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42E6ADFE1518934D00854C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42E6ADFF1518934D00854C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42E6AE011518934D00854C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BezierAnimation/BezierAnimation-Prefix.pch";
+				INFOPLIST_FILE = "BezierAnimation/BezierAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42E6AE021518934D00854C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BezierAnimation/BezierAnimation-Prefix.pch";
+				INFOPLIST_FILE = "BezierAnimation/BezierAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42E6ADDC1518934C00854C59 /* Build configuration list for PBXProject "BezierAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E6ADFE1518934D00854C59 /* Debug */,
+				42E6ADFF1518934D00854C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E6AE001518934D00854C59 /* Build configuration list for PBXNativeTarget "BezierAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E6AE011518934D00854C59 /* Debug */,
+				42E6AE021518934D00854C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42E6ADD91518934C00854C59 /* Project object */;
+}
