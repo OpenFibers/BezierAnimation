@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CurveView.h"
 
 @interface ViewController : UIViewController
+{
+    CurveView *_curveView;
+}
 
 @end

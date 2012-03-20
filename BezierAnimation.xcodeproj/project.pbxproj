@@ -14,7 +14,9 @@
 		42E6ADF31518934D00854C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6ADF21518934D00854C59 /* main.m */; };
 		42E6ADF71518934D00854C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6ADF61518934D00854C59 /* AppDelegate.m */; };
 		42E6ADFA1518934D00854C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6ADF91518934D00854C59 /* ViewController.m */; };
-		42E6ADFD1518934D00854C59 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E6ADFB1518934D00854C59 /* ViewController.xib */; };
+		42E6AE071518938200854C59 /* CurvePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6AE041518938100854C59 /* CurvePoint.m */; };
+		42E6AE081518938200854C59 /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6AE061518938200854C59 /* CurveView.m */; };
+		42E6AE0A151893A000854C59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E6AE09151893A000854C59 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		42E6ADE61518934C00854C59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42E6ADE81518934C00854C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42E6ADEA1518934C00854C59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42E6ADEE1518934C00854C59 /* BezierAnimation-Info.plist */ = {isa = PBXFileReference; path = "BezierAnimation-Info.plist"; sourceTree = "<group>"; };
+		42E6ADEE1518934C00854C59 /* BezierAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BezierAnimation-Info.plist"; sourceTree = "<group>"; };
 		42E6ADF01518934C00854C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42E6ADF21518934D00854C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42E6ADF41518934D00854C59 /* BezierAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "BezierAnimation-Prefix.pch"; sourceTree = "<group>"; };
-		42E6ADF51518934D00854C59 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42E6ADF41518934D00854C59 /* BezierAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BezierAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		42E6ADF51518934D00854C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42E6ADF61518934D00854C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42E6ADF81518934D00854C59 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		42E6ADF81518934D00854C59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		42E6ADF91518934D00854C59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		42E6ADFC1518934D00854C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		42E6AE031518938100854C59 /* CurvePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurvePoint.h; sourceTree = "<group>"; };
+		42E6AE041518938100854C59 /* CurvePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurvePoint.m; sourceTree = "<group>"; };
+		42E6AE051518938100854C59 /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		42E6AE061518938200854C59 /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
+		42E6AE09151893A000854C59 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E6AE0A151893A000854C59 /* QuartzCore.framework in Frameworks */,
 				42E6ADE71518934C00854C59 /* UIKit.framework in Frameworks */,
 				42E6ADE91518934C00854C59 /* Foundation.framework in Frameworks */,
 				42E6ADEB1518934C00854C59 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +74,7 @@
 		42E6ADE51518934C00854C59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42E6AE09151893A000854C59 /* QuartzCore.framework */,
 				42E6ADE61518934C00854C59 /* UIKit.framework */,
 				42E6ADE81518934C00854C59 /* Foundation.framework */,
 				42E6ADEA1518934C00854C59 /* CoreGraphics.framework */,
@@ -81,7 +89,10 @@
 				42E6ADF61518934D00854C59 /* AppDelegate.m */,
 				42E6ADF81518934D00854C59 /* ViewController.h */,
 				42E6ADF91518934D00854C59 /* ViewController.m */,
-				42E6ADFB1518934D00854C59 /* ViewController.xib */,
+				42E6AE031518938100854C59 /* CurvePoint.h */,
+				42E6AE041518938100854C59 /* CurvePoint.m */,
+				42E6AE051518938100854C59 /* CurveView.h */,
+				42E6AE061518938200854C59 /* CurveView.m */,
 				42E6ADED1518934C00854C59 /* Supporting Files */,
 			);
 			path = BezierAnimation;
@@ -149,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E6ADF11518934C00854C59 /* InfoPlist.strings in Resources */,
-				42E6ADFD1518934D00854C59 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +173,8 @@
 				42E6ADF31518934D00854C59 /* main.m in Sources */,
 				42E6ADF71518934D00854C59 /* AppDelegate.m in Sources */,
 				42E6ADFA1518934D00854C59 /* ViewController.m in Sources */,
+				42E6AE071518938200854C59 /* CurvePoint.m in Sources */,
+				42E6AE081518938200854C59 /* CurveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +187,6 @@
 				42E6ADF01518934C00854C59 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		42E6ADFB1518934D00854C59 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42E6ADFC1518934D00854C59 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -239,6 +243,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BezierAnimation/BezierAnimation-Prefix.pch";
 				INFOPLIST_FILE = "BezierAnimation/BezierAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +255,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BezierAnimation/BezierAnimation-Prefix.pch";
 				INFOPLIST_FILE = "BezierAnimation/BezierAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
